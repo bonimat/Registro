@@ -1,0 +1,23 @@
+# See gitignore(5) man page for more details
+#
+*~
+*.swp
+/tags
+/TAGS
+/cscope.*
+/.patches/
+/.idea/
+/nbproject/
+CVS
+.DS_Store
+/.settings/
+/.project
+/.buildpath
+/.cache
+phpunit.xml
+# Composer support. Do not ignore composer.json, or composer.lock. These should be shipped by us.
+composer.phar
+/vendor/
+/behat.yml
+atlassian-ide-plugin.xml
+/node_modules/
